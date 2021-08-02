@@ -105,3 +105,11 @@ function Prompt() {
             }
         })
 };
+
+Prompt()
+    .then(teamData => {
+        return generatePage(employeeArr)
+    })
+    .then(pageHTML => {
+        return writeFile(pageHTML)
+    })
