@@ -1,0 +1,29 @@
+{
+  "name": "team-Profile-Generator",
+  "version": "1.0.0",
+  "description": "Creates and tracks basic employee data",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mason021/Team-Profile-Generator.git"
+  },
+  "keywords": [],
+  "author": "Mason Cain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mason021/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/Mason021/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
